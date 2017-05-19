@@ -1694,10 +1694,14 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 22px;
+  border:dotted 2px #000;
+  padding:5px 10px;
 }
 
 h6, .h6 {
   font-size: 18px;
+  font-weight:500;
+  text-align: right;
 }
 
 p {
@@ -2417,10 +2421,31 @@ output {
   padding:15px;
   text-align: left;
 }
+.womanbody {
+   background-image: none;
+   background-repeat:no-repeat;
+   background-position: right;
+}
+.womanbody p {
+   margin-right:0;
+  }
+@media(min-width:768px){
+  .womanbody p {
+   margin-right:250px;
+  }
+}
+@media(min-width:480px){
+  .womanbody {
+   background-image: url("body.png");
+  }
+}
+
 .lighttransparent h5{
-  border:dotted 2px #000;
   text-align: center;
 }  
+.slideshowbtn{
+  text-align: center;
+}
 .darktransparent {
   background-color: rgb(0, 0, 0, 0.8);
   padding:15px;
@@ -2430,6 +2455,7 @@ output {
 .darktransparent h5{
   color: #b988b9;
   text-transform: uppercase;
+  border:none;
 }
 .darktransparent p{
   color: #fff;
@@ -2446,7 +2472,6 @@ output {
   background-color: transparent;
   background-image: none;
   border: 1px solid #bdbdbd;
-  border-radius: 5px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -10043,29 +10068,6 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
   background: #73308b;
   border: none;
   margin-bottom: 0;
-}
-
-.text-subline {
-  position: relative;
-  height: 1px;
-  padding: 0;
-  background: #e5e5e5;
-  margin-bottom: 22px;
-  border: none;
-}
-
-.text-subline:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 1px;
-  width: 50px;
-  background: #d7d7d7;
-}
-
-.bg-java .text-subline:before {
-  background: #73308b;
 }
 
 .divider {
@@ -28320,10 +28322,6 @@ label {
   box-shadow: none;
 }
 
-.form-control {
-  border-radius: 5px;
-}
-
 textarea.form-control {
   height: 170px;
   min-height: 50px;
@@ -34378,14 +34376,6 @@ fieldset[disabled] .bg-primary .btn-java {
   margin-bottom: 6px;
 }
 
-.rd-navbar-default.rd-navbar-fixed .text-subline, .rd-navbar-minimal.rd-navbar-fixed .text-subline, .rd-navbar-sidebar-toggle.rd-navbar-fixed .text-subline, .rd-navbar-sidebar-fixed .text-subline, .rd-navbar-floated.rd-navbar-fixed .text-subline, .rd-navbar-top-panel.rd-navbar-fixed .text-subline, .rd-navbar-logo-center.rd-navbar-fixed .text-subline {
-  width: 50%;
-  left: 0;
-  display: inline-block;
-  margin-left: 25px;
-  margin-bottom: 10px;
-}
-
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-submenu-toggle, .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-submenu-toggle, .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-submenu-toggle, .rd-navbar-sidebar-fixed .rd-navbar-submenu-toggle, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-submenu-toggle, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-submenu-toggle, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-submenu-toggle, .rd-navbar-default.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-minimal.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-sidebar-toggle.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-sidebar-fixed .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-floated.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-top-panel.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-logo-center.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow {
   cursor: pointer;
   position: absolute;
@@ -34684,7 +34674,7 @@ fieldset[disabled] .bg-primary .btn-java {
   font-family: 'FontAwesome';
   font-size: 8px;
   line-height: 8px;
-  color: #fff;
+  color: #000;
   position: relative;
   top: -1px;
   right: 11px;
@@ -34893,10 +34883,6 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu li > a {
   padding-right: 0;
-}
-
-.rd-navbar-default.rd-navbar-static .rd-navbar-megamenu .text-subline, .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu .text-subline, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu .text-subline, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu .text-subline, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu .text-subline {
-  margin-bottom: 12px;
 }
 
 .rd-navbar-default.rd-navbar-static .responsive-tabs .resp-tabs-list, .rd-navbar-minimal.rd-navbar-static .responsive-tabs .resp-tabs-list, .rd-navbar-floated.rd-navbar-static .responsive-tabs .resp-tabs-list, .rd-navbar-top-panel.rd-navbar-static .responsive-tabs .resp-tabs-list, .rd-navbar-logo-center.rd-navbar-static .responsive-tabs .resp-tabs-list {
@@ -42017,10 +42003,6 @@ html:not(.lt-ie10) .not-animated {
     filter: alpha(opacity=50); /* IE7 */
     opacity: 0.6;
     text-decoration: none;
-}
-
-.thumbnails li> .fff .caption { 
-    background:#fff !important; 
 }
 
 ul.thumbnails { 
