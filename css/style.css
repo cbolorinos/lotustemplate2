@@ -5927,9 +5927,6 @@ a.badge:hover, a.badge:focus {
   padding: 0;
   margin-bottom: 24px;
   line-height: 1.6;
-  background-color: #191919;
-  border: 1px solid #ddd;
-  border-radius: 5px;
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
@@ -7434,7 +7431,9 @@ button.close {
   .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    left: 0;
+  }
+  #myCarousel{
+    margin-right: 50px;
   }
 }
 
@@ -12012,7 +12011,7 @@ fieldset[disabled] .btn-darkest {
 }
 
 .btn-ellipse.btn {
-  border-radius: 23px;
+  border-radius: 0px;
 }
 
 .btn-ellipse.btn-xs, .btn-group-xs > .btn-ellipse.btn {
@@ -24106,7 +24105,6 @@ html.lt-ie11 .btn-santos-svg:hover {
 .thumbnail {
   transition: .3s;
   border: none;
-  box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.15);
 }
 
 a.thumbnail:hover {
@@ -28349,6 +28347,7 @@ input.text-gray-darker::-webkit-input-placeholder {
 .form-control {
   -webkit-appearance: none;
   line-height: 24px;
+  background-color:white;
 }
 
 .form-control:focus {
@@ -37348,6 +37347,11 @@ fieldset[disabled] .bg-primary .btn-java {
   display: none;
 }
 
+.rd-navbar-brand a {
+  margin-left: 220px;
+  margin-bottom:20px;
+}
+
 .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-search {
   display: none;
 }
@@ -42035,8 +42039,8 @@ ul.thumbnails {
 
 /* Carousel Control */
 .control-box {
-    text-align: right;
     width: 100%;
+    margin-left:20px;
 }
 .carousel-control{
     background: #666;
@@ -42052,16 +42056,13 @@ ul.thumbnails {
     height: 30px;
     width: 15px;
 }
-.carousel-inner{
+/* .carousel-inner{
   margin-left: -23px;
 }
 /* Mobile Only */
 @media (max-width: 767px) {
     .page-header, .control-box {
         text-align: center;
-    }
-    .carousel-inner{
-      margin-left: -20px;
     }
 }
 @media (max-width: 479px) {
@@ -45971,7 +45972,7 @@ a.pswp__share--download:hover {
 }
 
 .select2-container--bootstrap .select2-selection {
-  background-color: transparent;
+  background-color: #fff;
   border: 1px solid #bdbdbd;
   border-radius: 5px;
   color: #212121;
