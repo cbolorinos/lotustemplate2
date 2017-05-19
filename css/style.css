@@ -2461,6 +2461,21 @@ output {
   color: #fff;
 }
 
+.advert {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin: 0 15px;
+    padding: 30px;
+}
+.advert h5, .advert p{
+  max-width: 500px;
+}
+
+footer {
+  background-color: #b988b9
+}
+
 .form-control {
   display: block;
   width: 100%;
