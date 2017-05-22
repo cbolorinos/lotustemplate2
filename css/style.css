@@ -2464,16 +2464,31 @@ output {
 .advert {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position:right;
     margin: 0 15px;
     padding: 30px;
 }
 .advert h5, .advert p{
   max-width: 500px;
+  background-color: rgba(215, 215, 215, 0.8);
+  padding:5px 10px;
 }
 
-footer {
-  background-color: #b988b9
+.pinkfooter {
+  background-color: #b988b9;
+  padding:15px;
+  content: "";
+  display:table;
+  clear:both;
+  width: 100%
+}
+.purplefooter {
+  background-color: #73308b;
+  padding:15px;
+  content: "";
+  display:table;
+  clear:both;
+  width: 100%
 }
 
 .form-control {
@@ -10735,6 +10750,9 @@ mark, .mark {
 .list-inline-lg > li + li [class*='fa-']:before {
   margin-left: 15px;
 }
+.association{
+  max-width:80px;
+}
 
 @media (min-width: 768px) {
   .list-inline-lg li + li [class*='fa-']:before {
@@ -14695,7 +14713,18 @@ html.lt-ie11 .btn-santos-svg:hover {
   -webkit-animation: fa-spin 1s infinite steps(8);
   animation: fa-spin 1s infinite steps(8);
 }
-
+.footer-icon {
+  background-color: #000;
+}
+.footer-link{
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-link > li > a{
+  text-transform: uppercase;
+  color:#000;
+}
 @-webkit-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -25658,8 +25687,9 @@ a.icon {
 }
 
 .icon-darker {
-  color: #434445;
-  border-color: #434445;
+  background-color: #000;
+  border:none;
+  color:white;
 }
 
 .icon-primary {
@@ -25702,10 +25732,6 @@ a.icon {
   border: none;
 }
 
-.icon-darker-filled {
-  background: #434445;
-}
-
 .icon-darkest-filled {
   background: #212121;
 }
@@ -25724,63 +25750,6 @@ a.icon {
   background: #fff;
   color: #868686;
 }
-
-.icon-shark-filled {
-  background: -moz-linear-gradient(45deg, #191919 0%, #434445 100%);
-  background: -webkit-linear-gradient(45deg, #191919 0%, #434445 100%);
-  background: -o-linear-gradient(45deg, #191919 0%, #434445 100%);
-  background: -ms-linear-gradient(45deg, #191919 0%, #434445 100%);
-  background: linear-gradient(45deg, #191919 0%, #434445 100%);
-}
-
-.icon-mantis-filled {
-  background: -moz-linear-gradient(45deg, #73308b 0%, #84c450 100%);
-  background: -webkit-linear-gradient(45deg, #73308b 0%, #84c450 100%);
-  background: -o-linear-gradient(45deg, #73308b 0%, #84c450 100%);
-  background: -ms-linear-gradient(45deg, #73308b 0%, #84c450 100%);
-  background: linear-gradient(45deg, #73308b 0%, #84c450 100%);
-}
-
-.icon-pink-filled {
-  background: -moz-linear-gradient(45deg, #8668ad 0%, #695999 100%);
-  background: -webkit-linear-gradient(45deg, #8668ad 0%, #695999 100%);
-  background: -o-linear-gradient(45deg, #8668ad 0%, #695999 100%);
-  background: -ms-linear-gradient(45deg, #8668ad 0%, #695999 100%);
-  background: linear-gradient(45deg, #8668ad 0%, #695999 100%);
-}
-
-.icon-malibu-filled {
-  background: -moz-linear-gradient(45deg, #55bbeb 0%, #79ccf2 100%);
-  background: -webkit-linear-gradient(45deg, #55bbeb 0%, #79ccf2 100%);
-  background: -o-linear-gradient(45deg, #55bbeb 0%, #79ccf2 100%);
-  background: -ms-linear-gradient(45deg, #55bbeb 0%, #79ccf2 100%);
-  background: linear-gradient(45deg, #55bbeb 0%, #79ccf2 100%);
-}
-
-.icon-carrot-filled {
-  background: -moz-linear-gradient(45deg, #f5bf2f 0%, #F3A43D 100%);
-  background: -webkit-linear-gradient(45deg, #f5bf2f 0%, #F3A43D 100%);
-  background: -o-linear-gradient(45deg, #f5bf2f 0%, #F3A43D 100%);
-  background: -ms-linear-gradient(45deg, #f5bf2f 0%, #F3A43D 100%);
-  background: linear-gradient(45deg, #f5bf2f 0%, #F3A43D 100%);
-}
-
-.icon-red-filled {
-  background: -moz-linear-gradient(45deg, #f54b0f 0%, #e50a0a 100%);
-  background: -webkit-linear-gradient(45deg, #f54b0f 0%, #e50a0a 100%);
-  background: -o-linear-gradient(45deg, #f54b0f 0%, #e50a0a 100%);
-  background: -ms-linear-gradient(45deg, #f54b0f 0%, #e50a0a 100%);
-  background: linear-gradient(45deg, #f54b0f 0%, #e50a0a 100%);
-}
-
-.icon-blue-gray-filled {
-  background: -moz-linear-gradient(45deg, #8668ad 0%, #55bbeb 100%);
-  background: -webkit-linear-gradient(45deg, #8668ad 0%, #55bbeb 100%);
-  background: -o-linear-gradient(45deg, #8668ad 0%, #55bbeb 100%);
-  background: -ms-linear-gradient(45deg, #8668ad 0%, #55bbeb 100%);
-  background: linear-gradient(45deg, #8668ad 0%, #55bbeb 100%);
-}
-
 .icon.icon-xs.mdi-monitor {
   font-size: 28px;
 }
@@ -38104,6 +38073,12 @@ fieldset[disabled] .bg-primary .btn-java {
   transform: translate3d(0px, 0px, 0px);
   z-index: 1;
   clip: rect(0, auto, auto, 0);
+}
+.rd-parallax{
+  background-image: url(background-03-1920x537.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+
 }
 
 .rd-parallax-layer[data-type="media"] {
