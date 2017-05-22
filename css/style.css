@@ -38070,45 +38070,14 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 /** 3.5  RD Parallax */
-.rd-parallax-inner {
-  position: relative;
-  overflow: hidden;
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
-  z-index: 1;
-  clip: rect(0, auto, auto, 0);
-}
-.rd-parallax{
-  background-image: url(background-02-1920x537.jpg);
+.rdparallax{
+  background-image: url(background-03-1920x537.jpg);
   background-repeat:no-repeat;
   background-size:cover;
-  background-position: top left;
+  background-position: top;
+  background-attachment: fixed;
 }
 
-.rd-parallax-layer[data-type="media"] {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  pointer-events: none;
-}
-
-.rd-parallax-layer[data-type="media"] iframe {
-  width: 100%;
-  height: 100%;
-}
-
-.rd-parallax-layer[data-url] {
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: left center;
-}
-
-.rd-parallax .rd-parallax-layer[data-type="media"] + * {
-  position: relative;
-}
 
 /** 3.6  RD Flickrfeed */
 .widget-flickrfeed .flickr-item {
@@ -38132,9 +38101,6 @@ fieldset[disabled] .bg-primary .btn-java {
   .swiper-container h2 {
     font-size: 48px;
   }
-  .rd-parallax{
-  background-image: url(background-03-1920x537.jpg);
-  }
   .hrtop {
   height: 6px;
   background: #73308b;
@@ -38147,6 +38113,9 @@ fieldset[disabled] .bg-primary .btn-java {
 @media (min-width: 1400px) {
   .swiper-container h2 {
     font-size: 60px;
+  }
+  .rdparallax{
+  background-image: url(background-03-1920x537.jpg);
   }
 }
 
