@@ -2428,13 +2428,20 @@ output {
 }
 .womanbody p {
    margin-right:0;
-  }
-@media(min-width:768px){
-  .womanbody p {
-   margin-right:250px;
-  }
 }
-@media(min-width:480px){
+.bullets {
+  padding-left: 20px;
+}
+.bullets li{
+  list-style: disc;
+}
+@media(min-width:768px){
+  .womanbody h5 {
+   margin-right:280px;
+  }
+  .womanbody p {
+   margin-right:280px;
+  }
   .womanbody {
    background-image: url("body.png");
   }
@@ -10095,10 +10102,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
   border: none;
 }
 .hrtop {
-  height: 6px;
-  background: #73308b;
-  border: none;
-  margin-bottom: 0;
+  display:none;
 }
 
 .divider {
@@ -38075,10 +38079,10 @@ fieldset[disabled] .bg-primary .btn-java {
   clip: rect(0, auto, auto, 0);
 }
 .rd-parallax{
-  background-image: url(background-03-1920x537.jpg);
+  background-image: url(background-02-1920x537.jpg);
   background-repeat:no-repeat;
   background-size:cover;
-
+  background-position: top left;
 }
 
 .rd-parallax-layer[data-type="media"] {
@@ -38127,6 +38131,16 @@ fieldset[disabled] .bg-primary .btn-java {
 @media (min-width: 992px) {
   .swiper-container h2 {
     font-size: 48px;
+  }
+  .rd-parallax{
+  background-image: url(background-03-1920x537.jpg);
+  }
+  .hrtop {
+  height: 6px;
+  background: #73308b;
+  border: none;
+  margin-bottom: 0;
+  display:block;
   }
 }
 
