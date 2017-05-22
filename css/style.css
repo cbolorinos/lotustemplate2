@@ -9906,6 +9906,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
   display: none !important;
   margin-right: auto;
   margin-left:auto;
+  text-align: center;
 }
 
 .reveal-block {
@@ -35277,6 +35278,8 @@ fieldset[disabled] .bg-primary .btn-java {
   margin-top: -70px;
   border-radius: 0px 0px 10px 10px;
   padding:10px;
+  position: absolute;
+  right:20px;
 }
 
 .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-footer .list-inline > li {
@@ -37349,7 +37352,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-brand a {
-  margin-left: 220px;
+  margin-left: 0px;
   margin-bottom:20px;
 }
 
