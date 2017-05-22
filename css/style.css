@@ -38071,7 +38071,7 @@ fieldset[disabled] .bg-primary .btn-java {
 
 /** 3.5  RD Parallax */
 .rdparallax{
-  background-image: url(background-03-1920x537.jpg);
+  background-image: url(background-02-1920x537.jpg);
   background-repeat:no-repeat;
   background-size:cover;
   background-position: top;
@@ -38113,9 +38113,6 @@ fieldset[disabled] .bg-primary .btn-java {
 @media (min-width: 1400px) {
   .swiper-container h2 {
     font-size: 60px;
-  }
-  .rdparallax{
-  background-image: url(background-03-1920x537.jpg);
   }
 }
 
@@ -38231,6 +38228,9 @@ fieldset[disabled] .bg-primary .btn-java {
 @media (min-width: 768px) {
   .swiper-slide .swiper-caption {
     min-height: 435px;
+  }
+    .rdparallax{
+  background-image: url(background-03-1920x537.jpg);
   }
 }
 
