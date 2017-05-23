@@ -2457,7 +2457,6 @@ output {
   background-color: rgb(0, 0, 0, 0.8);
   padding:15px;
   text-align: left;
-  margin-bottom: 60px;
 }
 .darktransparent h5{
   color: #b988b9;
@@ -2466,7 +2465,7 @@ output {
   padding:0px;
 }
 .darktransparent h4{
-  color:#d7d7d7;
+  color:#b988b9;
   font-size: 20px;
 }
 
@@ -24155,21 +24154,6 @@ html.lt-ie11 .btn-santos-svg:hover {
 
 /*# sourceMappingURL=materialdesignicons.css.map */
 /** 2.16 Thumbnail Addons */
-.thumbnail-custom, .thumbnail-classic, .thumbnail-zoe, .thumbnail-winston, .thumbnail-josip, .thumbnail-janes, .thumbnail-apollo, .thumbnail-terry, .thumbnail-rayen, .thumbnail-custom > figure, .thumbnail-classic > figure, .thumbnail-zoe > figure, .thumbnail-winston > figure, .thumbnail-josip > figure, .thumbnail-janes > figure, .thumbnail-apollo > figure, .thumbnail-terry > figure, .thumbnail-rayen > figure {
-  position: relative;
-  display: block;
-}
-
-.thumbnail-custom img, .thumbnail-classic img, .thumbnail-zoe img, .thumbnail-winston img, .thumbnail-josip img, .thumbnail-janes img, .thumbnail-apollo img, .thumbnail-terry img, .thumbnail-rayen img, .thumbnail-custom figure img, .thumbnail-classic figure img, .thumbnail-zoe figure img, .thumbnail-winston figure img, .thumbnail-josip figure img, .thumbnail-janes figure img, .thumbnail-apollo figure img, .thumbnail-terry figure img, .thumbnail-rayen figure img {
-  width: 100%;
-  height: auto;
-  transition: .35s;
-  will-change: transform;
-}
-
-.thumbnail-custom figure figcaption, .thumbnail-classic figure figcaption, .thumbnail-zoe figure figcaption, .thumbnail-winston figure figcaption, .thumbnail-josip figure figcaption, .thumbnail-janes figure figcaption, .thumbnail-apollo figure figcaption, .thumbnail-terry figure figcaption, .thumbnail-rayen figure figcaption, .thumbnail-custom figcaption, .thumbnail-classic figcaption, .thumbnail-zoe figcaption, .thumbnail-winston figcaption, .thumbnail-josip figcaption, .thumbnail-janes figcaption, .thumbnail-apollo figcaption, .thumbnail-terry figcaption, .thumbnail-rayen figcaption {
-  position: absolute;
-}
 
 .thumbnail {
   transition: .3s;
@@ -24517,185 +24501,6 @@ a.thumbnail:hover {
     opacity: 0;
     -webkit-transform: translate3d(0, -360px, 0);
     transform: translate3d(0, -360px, 0);
-  }
-}
-
-.thumbnail-josip {
-  width: 100%;
-}
-
-.thumbnail-josip figure figcaption,
-.thumbnail-josip figcaption {
-  position: static;
-  width: 100%;
-  height: 60px;
-  padding: 0;
-  text-align: left;
-  text-transform: none;
-  vertical-align: middle;
-  backface-visibility: hidden;
-  -webkit-transition: 0.3s, opacity 0.4s 0.3s;
-  -o-transition: 0.3s, opacity 0.4s 0.3s;
-  transition: 0.3s, opacity 0.4s 0.3s;
-}
-
-@media (min-width: 1200px) {
-  .thumbnail-josip figcaption,
-  .thumbnail-josip img {
-    width: 101%;
-  }
-}
-
-.thumbnail-josip.odd .thumbnail-desc {
-  background: #e94a55;
-}
-
-.thumbnail-josip:nth-child(even) .thumbnail-desc {
-  background: #73308b;
-}
-
-@media (max-width: 1200px) {
-  .thumbnail-josip.thumbnail-services {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-}
-
-.thumbnail-josip.thumbnail-services h5 {
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-family: "Quicksand", sans-serif;
-  letter-spacing: 0.06em;
-}
-
-.thumbnail-josip.thumbnail-services .thumbnail-desc {
-  padding: 25px 30px;
-}
-
-.thumbnail-josip .btn {
-  padding: 16px 10px;
-}
-
-@media (min-width: 1200px) {
-  .thumbnail-josip .btn {
-    padding: 16px 30px;
-  }
-}
-
-.thumbnail-josip .thumbnail-desc {
-  background: #73308b;
-  padding: 33px 10px;
-  transition: .3s ease;
-}
-
-@media (min-width: 1200px) {
-  .thumbnail-josip .thumbnail-desc {
-    padding: 33px 30px;
-  }
-}
-
-.thumbnail-josip .thumbnail-desc p {
-  opacity: .4;
-}
-
-@media (min-width: 992px) {
-  .thumbnail-josip .thumbnail-desc {
-    text-align: left;
-  }
-}
-
-@media (min-width: 1200px) {
-  .thumbnail-josip .thumbnail-desc {
-    width: 102%;
-  }
-}
-
-.thumbnail-josip .btn-java:hover {
-  background: #b988b9;
-  border-color: #b988b9;
-}
-
-.thumbnail-josip-title, .thumbnail-josip p {
-  overflow: hidden;
-  display: block;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  padding-right: 5px;
-}
-
-.thumbnail-josip-title {
-  color: #fff;
-}
-
-.thumbnail-josip:hover figcaption {
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-  -webkit-transition: transform 0.3s, opacity 0.1s;
-  -o-transition: transform 0.3s, opacity 0.1s;
-  transition: transform 0.3s, opacity 0.1s;
-}
-
-@media (min-width: 992px) {
-  .thumbnail-josip,
-  .thumbnail-josip > figure {
-    overflow: hidden;
-  }
-  .thumbnail-josip figure figcaption,
-  .thumbnail-josip figcaption {
-    position: absolute;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    opacity: 0;
-    padding: 0;
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-  }
-  .thumbnail-josip:hover .thumbnail-desc {
-    -webkit-transform: translateY(-50px);
-    transform: translateY(-50px);
-  }
-}
-
-@media (min-width: 480px) {
-  .thumbnail-josip.thumbnail-big {
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .thumbnail-josip.thumbnail-big {
-    max-width: 50%;
-  }
-}
-
-@media (min-width: 992px) {
-  .thumbnail-josip.thumbnail-big {
-    width: 20%;
-    max-width: none;
-  }
-}
-
-.tablet .thumbnail-josip figcaption {
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-}
-
-.tablet .thumbnail-josip .thumbnail-desc {
-  padding: 22px 10px;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-}
-
-@media (min-width: 992px) {
-  .tablet .thumbnail-josip .thumbnail-desc {
-    -webkit-transform: translateY(-50px);
-    transform: translateY(-50px);
   }
 }
 
@@ -25132,6 +24937,13 @@ a.thumbnail:hover {
 
 .img-responsive {
   display: inline-block;
+}
+.team-member {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  border-radius: 50%;
+  border: 2px solid #73308b;
 }
 
 .img-rounded {
@@ -25770,7 +25582,7 @@ a.icon {
 
 .icon-white {
   background: #fff;
-  color: #868686;
+  color: #73308b;
 }
 .icon.icon-xs.mdi-monitor {
   font-size: 28px;
