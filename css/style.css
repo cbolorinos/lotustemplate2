@@ -4859,11 +4859,13 @@ tbody.collapse.in {
   position: relative;
   display: block;
   padding: 10px 18px;
+  margin:7px;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #f7f7f7;
+  background-color: #b988b9;
+  color:#fff;
 }
 
 .nav > li.disabled > a {
@@ -33526,6 +33528,7 @@ fieldset[disabled] .bg-primary .btn-java {
   position: relative;
   z-index: 99999;
   text-align: left;
+  margin-bottom: 15px;
 }
 
 .rd-navbar ul {
@@ -36812,6 +36815,7 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-brand img {
   vertical-align: baseline;
+  margin-bottom: 20px;
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-brand-slogan {
