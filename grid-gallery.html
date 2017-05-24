@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="keywords" content="Visage design multipurpose template">
     <meta name="date" content="Dec 26">
-    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <!-- Stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -57,11 +57,11 @@
                     
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
-                      <li class="active"><a href="index.html"><span>Home</span></a>
+                      <li><a href="index.html"><span>Home</span></a>
                       </li>
                       <li><a href="about.html"><span>About</span></a>
                       </li>
-                      <li><a href="our-team.html"><span>Doctors</span></a>
+                      <li><a href="our-team.html"><span>Team</span></a>
                       <ul class="rd-navbar-dropdown">
                           <li><a href="team-member.html"><span class="text-middle">Dr John Doe</span></a>
                           </li>
@@ -86,7 +86,7 @@
                         </ul>
                       </li>
                       
-                      <li><a href="grid-gallery.html"><span>Gallery</span></a>
+                      <li class="active"><a href="grid-gallery.html"><span>Gallery</span></a>
                       </li>
 
                       <li><a href="costs.html"><span>Costs</span></a>
@@ -109,176 +109,130 @@
       </header>
       <!-- Page Contents-->
       <main class="page-content">
-        <!--Sheldue-->
+        <!-- Classic Thumbnail-->
+        <!-- Portfolio Grid 3 columns-->
         <section class="rdparallax">
           <div class="rdparallaxlayer section-66 section-sm-66">
             <div class="shell text-right">
-              <div class="range range-xs-center range-md-right">
-                <div class="cell-sm-10 cell-md-8 cell-lg-6">
-                  <h2>Gallery</h2>
-                  <h3>Lorem ipsum dolor sit amet</h3>
-                  <div class="offset-top-0"><a href="make-an-appointment.html" class="btn btn-ellipse btn-primary">Schedule your free consultation</a></div>
-                </div>
-              </div>
-              <div class="row">
-                       <!-- Isotope Filters-->
-                <div class="col-lg-12 offset-top-20">
-                  <div class="isotope-filters isotope-filters-horizontal">
-                    <ul class="list-inline list-inline-sm">
-                      <li class="veil-md">
-                        <p>Choose your category:</p>
-                      </li>
-                      <li class="section-relative">
-                        <button data-custom-toggle="isotope-1" data-custom-toggle-disable-on-blur="true" class="isotope-filters-toggle btn btn-sm btn-default">Filter<span class="caret"></span></button>
-                        <ul id="isotope-1" class="list-sm-inline isotope-filters-list">
-                          <li><a data-isotope-filter="*" data-isotope-group="gallery" href="#" class="active">All</a></li>
-                          <li><a data-isotope-filter="tab 1" data-isotope-group="gallery" href="#">Facelift</a></li>
-                          <li><a data-isotope-filter="tab 2" data-isotope-group="gallery" href="#">Liposuction</a></li>
-                          <li><a data-isotope-filter="tab 3" data-isotope-group="gallery" href="#">Tummy Tuck</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                    <div class="isotope-wrap lighttransparent">
+                      <div class="row">
+                        <!-- Isotope Filters-->
+                        <div class="col-md-4 procedure-nav">
+                            <ul id="isotope-1" class="nav nav-pills">
+                              <li><a data-isotope-filter="*" data-isotope-group="gallery" href="#">All</a></li>
+                              <li><a data-isotope-filter="tab 1" data-isotope-group="gallery" href="#">Facelift</a></li>
+                              <li><a data-isotope-filter="tab 2" data-isotope-group="gallery" href="#">Liposuction</a></li>
+                              <li><a data-isotope-filter="tab 3" data-isotope-group="gallery" href="#">Tummy Tuck</a></li>
+                            </ul>
+                        </div>
                         <!-- Isotope Content-->
-                <div class="col-lg-12 offset-top-34">
-                  <div data-isotope-layout="fitRows" data-isotope-group="gallery" class="isotope">
-                    <div data-photo-swipe-gallery="gallery" class="row">
-                      <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-01_original.jpg">
-                        <figure><img class="img-responsive" src="images/gallery/gallery-01-370x240.jpg" alt="">
-                          <figcaption class="thumbnail-custom-caption text-center">
-                            <h6 class="thumbnail-custom-title text-white">Forehead lift</h6>
-                            <hr class="divider divider-xs bg-java">
-                          </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 3" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-02_original.jpg">
-                        <figure><img class="img-responsive" src="images/gallery/gallery-02-370x240.jpg" alt="">
-                                            <figcaption class="thumbnail-custom-caption text-center">
-                                              <h6 class="thumbnail-custom-title text-white">Facelift</h6>
-                                              <hr class="divider divider-xs bg-java">
-                                            </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-03_original.jpg">
-                        <figure><img class="img-responsive" src="images/gallery/gallery-03-370x240.jpg" alt="">
-                                            <figcaption class="thumbnail-custom-caption text-center">
-                                              <h6 class="thumbnail-custom-title text-white">Medical Care</h6>
-                                              <hr class="divider divider-xs bg-java">
-                                            </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-04_original.jpg">
-                        <figure><img class="img-responsive" src="images/gallery/gallery-04-370x240.jpg" alt="">
-                                            <figcaption class="thumbnail-custom-caption text-center">
-                                              <h6 class="thumbnail-custom-title text-white">Ear Surgery</h6>
-                                              <hr class="divider divider-xs bg-java">
-                                            </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="1200x800" href="images/gallery/originals/gallery-05_original.jpg">
-                        <figure><img class="img-responsive" src="images/gallery/gallery-05-370x240.jpg" alt="">
-                                            <figcaption class="thumbnail-custom-caption text-center">
-                                              <h6 class="thumbnail-custom-title text-white">Liposuction</h6>
-                                              <hr class="divider divider-xs bg-java">
-                                            </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 1" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="1200x800" href="images/gallery/originals/gallery-06_original.jpg">
-                        <figure><img class="img-responsive" src="images/gallery/gallery-06-370x240.jpg" alt="">
-                                            <figcaption class="thumbnail-custom-caption text-center">
-                                              <h6 class="thumbnail-custom-title text-white">Cleft Lip</h6>
-                                              <hr class="divider divider-xs bg-java">
-                                            </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 1" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-07_original.jpg">
-                        <figure><img wclass="img-responsive" src="images/gallery/gallery-07-370x240.jpg" alt="">
-                                            <figcaption class="thumbnail-custom-caption text-center">
-                                              <h6 class="thumbnail-custom-title text-white">Eyelid lift</h6>
-                                              <hr class="divider divider-xs bg-java">
-                                            </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 1" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-08_original.jpg">
-                        <figure><img width="370" height="240" src="images/gallery/gallery-08-370x240.jpg" alt="">
-                                           <figcaption class="thumbnail-custom-caption text-center">
-                                              <h6 class="thumbnail-custom-title text-white">Stem Cell Facelift</h6>
-                                              <hr class="divider divider-xs bg-java">
-                                            </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 1" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="1200x800" href="images/gallery/originals/gallery-09_original.jpg">
-                        <figure><img width="370" height="240" src="images/gallery/gallery-09-370x240.jpg" alt="">
-                                            <figcaption class="thumbnail-custom-caption text-center">
-                                              <h6 class="thumbnail-custom-title text-white">Laboratory analyses</h6>
-                                              <hr class="divider divider-xs bg-java">
-                                            </figcaption>
-                        </figure></a>
+                        <div class="col-md-8 procedure-content">
+                          <div data-isotope-layout="fitRows" data-isotope-group="gallery" class="isotope">
+                            <div data-photo-swipe-gallery="gallery" class="row">
+                              <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-01_original.jpg">
+                                          <figure><img class="img-responsive gallery-img" src="images/gallery/gallery-01-370x240.jpg" alt="">
+                                          </figure></a>
+                              </div>
+                              <div data-filter="tab 3" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-02_original.jpg">
+                                          <figure><img class="img-responsive gallery-img" src="images/gallery/gallery-02-370x240.jpg" alt="">
+                                          </figure></a>
+                              </div>
+                              <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-03_original.jpg">
+                                          <figure><img class="img-responsive gallery-img" src="images/gallery/gallery-03-370x240.jpg" alt="">
+                                          </figure></a>
+                              </div>
+                              <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-04_original.jpg">
+                                          <figure><img class="img-responsive gallery-img" src="images/gallery/gallery-04-370x240.jpg" alt="">
+                                          </figure></a>
+                              </div>
+                              <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="1200x800" href="images/gallery/originals/gallery-05_original.jpg">
+                                          <figure><img class="img-responsive gallery-img" src="images/gallery/gallery-05-370x240.jpg" alt="">
+                                          </figure></a>
+                              </div>
+                              <div data-filter="tab 3" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="1200x800" href="images/gallery/originals/gallery-06_original.jpg">
+                                          <figure><img class="img-responsive gallery-img" src="images/gallery/gallery-06-370x240.jpg" alt="">
+                                          </figure></a>
+                              </div>
+                              <div data-filter="tab 1" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-07_original.jpg">
+                                          <figure><img class="img-responsive gallery-img" src="images/gallery/gallery-07-370x240.jpg" alt="">
+                                          </figure></a>
+                              </div>
+                              <div data-filter="tab 1" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-08_original.jpg">
+                                          <figure><img class="img-responsive gallery-img" src="images/gallery/gallery-08-370x240.jpg" alt="">
+                                          </figure></a>
+                              </div>
+                              <div data-filter="tab 3" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="1200x800" href="images/gallery/originals/gallery-09_original.jpg">
+                                          <figure><img class="img-responsive gallery-img" src="images/gallery/gallery-09-370x240.jpg" alt="">
+                                          </figure></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
       </main>
       <!-- Page Footer-->
       <!-- Default footer-->
-            <footer class="section-relative page-footer bg-white context-light">
-        <div>
-          <div class="pinkfooter">
-            <div class="col-md-12 text-md-center offset-top-20">
-              <ul class="list-inline">
-                <li><a href="http://facebook.com" class="icon fa fa-facebook icon-xxs icon-circle icon-darker"></a></li>
-                <li><a href="http://twitter.com" class="icon fa fa-twitter icon-xxs icon-circle icon-darker"></a></li>
-                <li><a href="http://instagram.com" class="icon fa fa-google-plus icon-xxs icon-circle icon-darker"></a></li>
-                <li><a href="http://linkedin.com" class="icon fa fa-linkedin icon-xxs icon-circle icon-darker"></a></li>                 
-              </ul>
-            </div>
-            <div class="col-md-12 text-md-center offset-top-20">
-              <ul class="list-inline footer-link">
-                <li><a href="about.html">About</a>
-                </li>
-                <li><a href="our-team.html">Doctors</a>
-                </li>
-                <li><a href="services.html">Procedures</a>
-                </li>
-                <li><a href="grid-gallery.html">Gallery</a>
-                </li>
-                <li><a href="testimonials.html">Testimonials</a>
-                </li>
-                <li><a href="costs.html">Costs</a>
-                </li>
-                <li><a href="appointments.html">Appointments</a>
-                </li>      
-                <li><a href="contacts.html">Contacts</a>
-                </li>
-                <li><a href="privacy.html">Privacy Policy</a>
-                </li>
-                <li><a href="sitemap.html">Site Map</a>
-                </li>
-                <li><a href="disclaimer.html">Disclaimer</a>
-                </li>
-              </ul>
+      <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-lighter">
+        <div class="shell">
+          <div class="range range-sm-center text-lg-left">
+            <div class="cell-sm-8 cell-md-12">
+              <div class="range range-xs-center">
+                <div class="cell-xs-10 cell-md-4 text-left cell-md-push-3 inset-md-left-50">
+                  <h6>Newsletter</h6>
+                  <hr class="text-subline">
+                  <p class="text-gray-darker">Enter your email address to get the latest news, deals, tips, special events and activities delivered right to your inbox.</p>
+                        <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="rd-mailform">
+                          <div class="form-group">
+                            <div class="input-group input-group-sm">
+                              <input placeholder="Your e-mail..." type="email" data-constraints="@Required @Email" name="email" class="form-control text-gray-darker"><span class="input-group-btn">
+                                <button type="submit" class="btn btn-sm btn-primary">Subscribe</button></span>
+                            </div>
+                          </div>
+                        </form>
+                </div>
+                <div class="cell-xs-10 text-xs-left cell-md-4 cell-md-push-2 offset-top-50 offset-md-top-0">
+                  <h6>contact us</h6>
+                  <hr class="text-subline">
+                  <div class="text-center text-lg-left">
+                    <address class="contact-info reveal-sm-inline-block text-left">
+                      <div class="p unit unit-spacing-xxs unit-horizontal">
+                        <div class="unit-left"><span class="icon icon-xxs mdi mdi-phone text-primary"></span></div>
+                        <div class="unit-body"><a href="callto:#" class="text-gray-darker">1-800-1234-567</a><span class="text-gray-darker">, </span><a href="callto:#" class="text-gray-darker">1-800-3214-321</a></div>
+                      </div>
+                      <div class="p unit unit-horizontal unit-spacing-xxs">
+                        <div class="unit-left"><span class="icon icon-xxs mdi mdi-map-marker text-primary"></span></div>
+                        <div class="unit-body"><a href="#" class="text-gray-darker">1101 Brickell Ave South Tower 8th Floor <br>
+Miami, FL 33131</a></div>
+                      </div>
+                      <div class="p unit unit-spacing-xxs unit-horizontal offset-top-16">
+                        <div class="unit-left"><span class="icon icon-xxs mdi mdi-email-outline text-primary"></span></div>
+                        <div class="unit-body"><a href="mailto:#" class="text-primary">info@lotusdigitalsolutions.com</a></div>
+                      </div>
+                    </address>
+                  </div>
+                </div>
+                <div class="cell-xs-10 offset-top-66 cell-md-4 cell-md-push-1 offset-md-top-0">
+                  <!-- Footer brand-->
+                  <div class="footer-brand"><a href="index.html"><img width='203' height='70' class='img-responsive' src='images/logo-dark.png' alt=''/></a></div>
+                  <div class="offset-top-50 offset-md-top-90">
+                          <ul class="list-inline">
+                            <li><a href="http://facebook.com" class="icon fa fa-facebook icon-xxs icon-circle icon-white"></a></li>
+                            <li><a href="http://twitter.com" class="icon fa fa-twitter icon-xxs icon-circle icon-white"></a></li>
+                            <li><a href="http://instagram.com" class="icon fa fa-instagram icon-xxs icon-circle icon-white"></a></li>
+                            
+                          </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="purplefooter">
-            <div class="col-md-4 text-md-center offset-top-20">
-              <a href="index.html"><img width='203' height='70' class='img-responsive' src='images/logo.png' alt=''/></a>
-            </div>
-            <div class="col-md-4 text-md-center offset-top-20">
-              <p class="text-white">75 Arlington St. - Ste. 500 - Boston, MA 02116<br><a class="text-white" href="tel:555-555-1212">P: 617.987.5564</a> - &copy; <span id="copyright-year"></span> All Rights Reserved.</p>
-            </div>
-            <div class="col-md-4 text-md-center offset-top-20">
-              <ul class="list-inline">
-                <li><img class='img-responsive association' src='images/association1.jpg' alt=''/></li>
-                <li><img class='img-responsive association' src='images/association2.jpg' alt=''/></li>
-                <li><img class='img-responsive association' src='images/association3.jpg' alt=''/></li>                 
-              </ul>
-            </div>
-          </div>  
+        </div>
+        <div class="shell offset-top-50 offset-md-top-60">
+          <p class="text-gray text-md-left">&copy; <span id="copyright-year"></span> All Rights Reserved. <a href="privacy.html" class="text-gray">Terms of Use and Privacy Policy</a></p>
         </div>
       </footer>
     </div>
@@ -322,5 +276,10 @@
     <!-- Java script-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#isotope-1 li:first a").focus();
+      });
+    </script>
   </body>
 </html>
