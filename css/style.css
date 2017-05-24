@@ -2457,6 +2457,12 @@ output {
   padding:15px;
   text-align: left;
 }
+.darktransparent hr{
+  background-color: #fff;
+}
+.darktransparent a{
+  color: #fff;
+}
 .darktransparent h5{
   color: #b988b9;
   text-transform: uppercase;
@@ -2479,7 +2485,7 @@ output {
     margin: 0 15px;
     padding: 30px;
 }
-.advert h5, .advert p,{
+.advert h5, .advert p{
   max-width: 500px;
   background-color: rgba(215, 215, 215, 0.8);
   padding:5px 10px;
@@ -34593,7 +34599,7 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li:hover, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li:hover, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li:hover {
   color:#fff;
-  background: #d7d7d7;
+  background: #edeef0;
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li > a {
