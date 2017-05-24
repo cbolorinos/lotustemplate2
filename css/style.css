@@ -2416,7 +2416,7 @@ output {
 }
 
 .lighttransparent {
-  background-color: rgb(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   padding:15px;
   text-align: left;
 }
@@ -2453,7 +2453,7 @@ output {
   text-align: center;
 }
 .darktransparent {
-  background-color: rgb(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   padding:15px;
   text-align: left;
 }
@@ -35161,7 +35161,12 @@ fieldset[disabled] .bg-primary .btn-java {
   position: absolute;
   right:20px;
 }
-
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    .purplemediabox{
+  margin-top: -40px;
+}
+}
 .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-footer .list-inline > li {
   padding-left: 2px;
   padding-right: 2px;
