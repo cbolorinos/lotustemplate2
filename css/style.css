@@ -4925,6 +4925,10 @@ tbody.collapse.in {
   border-bottom-color: transparent;
   cursor: default;
 }
+.nav-pills {
+  border-right:none;
+}
+
 .nav-pills > li > a {
   border-radius: 3px 3px 3px 3px;
   text-align: center;
@@ -4932,6 +4936,9 @@ tbody.collapse.in {
   border:1px solid #73308b;
   margin-right:10px;
   }
+.nav-pills > li >a:last-child{
+  margin: 0px 0px 0px 0px;
+}
 .procedure-nav{
   padding-right:15px;
 }
@@ -4944,8 +4951,10 @@ tbody.collapse.in {
   margin-bottom:20px;
 }
 
-
 @media(min-width: 992px){
+.nav-pills {
+  border-right:1px solid #73308b;
+}
 .nav-pills > li > a {
   border-radius: 3px 0 0 3px;
   text-align: right;
@@ -4960,6 +4969,7 @@ tbody.collapse.in {
   margin-top: 0;
   padding-left:15px;
   border-left: 1px solid #73308b;
+  margin-left: -1px;
   }
 }
 
