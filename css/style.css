@@ -1583,7 +1583,7 @@ hr {
   margin-top: 24px;
   margin-bottom: 24px;
   border: 0;
-  border-top: 1px solid #f3f3f3;
+  border-top: 1px solid #b988b9;
 }
 
 .sr-only {
@@ -1701,7 +1701,6 @@ h5, .h5 {
 h6, .h6 {
   font-size: 18px;
   font-weight:500;
-  text-align: right;
 }
 
 p {
@@ -2488,6 +2487,7 @@ output {
 .cost-subtitle{
   font-style: italic;
   text-transform:none;
+  font-weight: 200;
   color:#73308b;
 }
 .cost-links a {
