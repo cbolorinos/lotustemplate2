@@ -37987,7 +37987,10 @@ fieldset[disabled] .bg-primary .btn-java {
   background-image: url(background-02-1920x537.jpg);
   background-repeat:no-repeat;
   background-size:cover;
-  background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center top;
   background-attachment: fixed;
 }
 
