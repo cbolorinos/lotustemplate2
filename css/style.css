@@ -2483,7 +2483,7 @@ output {
     background-repeat: no-repeat;
     background-position:right;
     margin: 0 15px;
-    padding: 30px;
+    padding: 15px 30px;
 }
 .advert h5, .advert p{
   max-width: 500px;
@@ -4299,7 +4299,6 @@ input[type="button"].btn-block {
     margin-left: 100%;
   }
 }
-
 /** 1.10 Component animations */
 .fade {
   opacity: 0;
@@ -24638,10 +24637,6 @@ a.thumbnail:hover {
   .thumbnail-janes:hover {
     box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.15);
   }
-  .thumbnail-janes:hover img {
-    -webkit-transform: translateX(25%);
-    transform: translateX(25%);
-  }
 }
 
 @media (min-width: 1800px) {
@@ -29641,7 +29636,9 @@ html .page .offset-top-124 {
 html .page .offset-top-130 {
   margin-top: 130px;
 }
-
+html .page .offset-top-mobile-20 {
+  margin-top: 20px;
+}
 @media (min-width: 480px) {
   html .page .offset-xs-top-0 {
     margin-top: 0;
@@ -29828,6 +29825,9 @@ html .page .offset-top-130 {
   }
   html .page .offset-md-top-130 {
     margin-top: 130px;
+  }
+  html .page .offset-top-mobile-20 {
+  margin-top: 0px;
   }
 }
 
@@ -33007,6 +33007,16 @@ fieldset[disabled] .box-planning-type-4 .btn-default {
 .box-member img {
   display: inline-block;
 }
+.biolist{
+  padding-left: 0;
+  color:#fff;
+}
+.biolist-main{
+  padding-left: 0;
+}
+.biolist-main li {
+  margin: 15px 0;
+}
 
 @media (min-width: 1200px) {
   .box-member .box-member-wrap {
@@ -35434,6 +35444,114 @@ fieldset[disabled] .bg-primary .btn-java {
 .rd-navbar-sidebar-fixed .rd-navbar-nav {
   text-align: left;
 }
+.certifications{
+  max-width: 500px;
+  margin:0 auto;
+}
+.certification{
+  padding:15px;
+}
+
+
+/* profile box */
+
+.iamgurdeep-pic {
+    position: relative;
+}
+.username {
+    bottom: 0;
+    color: #ffffff;
+    padding: 30px 15px 4px;
+    position: absolute;
+    width: 100%;
+    text-shadow: 1px 1px 2px #000000;
+    
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, #2d2c41 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, #2d2c41 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #2d2c41 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a64d4d4d',GradientType=0 ); /* IE6-9 */
+}
+.iamgurdeeposahan {
+    border-radius: 4px 4px 0 0;
+}
+.username > h2 {
+    font-family: oswald;
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 31px 0 4px;
+    position: relative;
+    text-shadow: 1px 1px 2px #000000;
+    text-transform: uppercase;
+}
+.username > h2 small {
+    color: #ffffff;
+    font-family: open sans;
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+}
+.username .fa{
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0 0 0 4px;
+    position: static;
+}
+.edit-pic a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 21px;
+    height: 39px;
+    line-height: 38px;
+    margin: 8px;
+    text-align: center;
+    width: 39px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+    text-decoration: none !important;
+     display: list-item;
+     background-color: rgba(255, 255, 255, 0.1)
+}
+.edit-pic a:hover {
+   font-size: 17px;
+   opacity: 0.9;
+  }
+.edit-pic a:focus {
+   background:#b63b4d;
+    color: #fff;
+    border: 1px solid #b63b4d;
+}
+a:focus {
+    outline: none;
+    outline-offset: 0px;
+}
+.edit-pic {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.tags {
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 0 0;
+    padding: 2px 5px;
+     -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
+
+
 
 @media (min-width: 1200px) {
   .rd-navbar-sidebar-fixed .rd-navbar-nav-wrap {
