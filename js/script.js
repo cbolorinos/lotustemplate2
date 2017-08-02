@@ -422,7 +422,6 @@ $document.ready(function () {
       return value;
     });
   }
-
   /**
    * makeUniqueRandom
    * @description  make random for gallery tabs

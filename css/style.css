@@ -3599,7 +3599,6 @@ input[type="button"].btn-block {
   margin-right: -15px;
 }
 
-
 .row:before, .row:after {
   content: " ";
   display: table;
@@ -4987,23 +4986,16 @@ tbody.collapse.in {
 .show-mobile{
   display:none;
 }
-.nav-pills {
-  border-right:1px solid #73308b;
-}
 .nav-pills > li > a {
-  border-radius: 3px 0 0 3px;
+  border-radius: 3px;
   text-align: right;
   float:none;
   border:none;
   margin-right: 0;
   }
-  .procedure-nav{
-  padding-right:0;
-  }
   .procedure-content{
   margin-top: 0;
   padding-left:15px;
-  border-left: 1px solid #73308b;
   margin-left: -1px;
   }
 }
@@ -14820,6 +14812,7 @@ html.lt-ie11 .btn-santos-svg:hover {
   max-width: 768px;
   margin-right: auto;
   margin-left: auto;
+  text-align:center;
 }
 .footer-link > li > a{
   text-transform: uppercase;
@@ -24313,6 +24306,26 @@ figcaption .project-creator {
     letter-spacing: 1px;
 }
 
+.project figure .actions-horizontal button {
+    padding: 13px 20px;
+    font-size: 16px;
+    top: 22%;
+    position: absolute;
+    left: 50%;
+    width: 90%;
+    margin-left: -45%;
+    line-height: 18px;
+    letter-spacing: 1px;
+} 
+
+.project figure:hover .actions {
+    background-color: rgba(0,0,0,.8);
+}
+
+.project figure:hover .actions-horizontal {
+    background-color: rgba(115,48,139,.8);
+}
+
 .project figure:hover .actions ul {
     display:inline;
 }
@@ -24321,7 +24334,7 @@ figcaption .project-creator {
     display: block;
     position: absolute;
     bottom: 0px;
-    top: 85%;
+    top: 75%;
     left:0;
     right:0;
     z-index: 1;
@@ -24337,38 +24350,77 @@ figcaption .project-creator {
     text-align:center;
 }
 
+.project figure .actions-horizontal {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    top: 55%;
+    left:0;
+    right:0;
+    z-index: 1;
+    opacity: 1;
+    background-color: rgba(35,31,32,.6);
+    -ms-transition: all .4s ease-out;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+    color: white;
+    padding:2%;
+    text-align:center;
+}
+
+@media (min-width: 768px) {
+  .project figure .actions {
+    top: 75%;
+  }
+  .project figure .actions-horizontal {
+    top: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .project figure .actions {
+    top: 60%;
+    left:0;
+    right:0;
+    padding:2%;
+    
+  }
+  .project figure .actions-horizontal {
+    top: 52%;
+    left:0;
+    right:0;
+    padding:2%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project figure .actions {
+    top: 60%;
+    left:0;
+    right:0;
+    font-size:1em;
+    padding:2%;
+  }
+  .project figure .actions-horizontal {
+    top: 62%;
+    left:0;
+    right:0;
+    font-size:1em;
+    padding:2%;
+  }
+}
+.doctor{
+  margin:15px;
+}
+
 .btn-project{
   width:100%;
   max-width:384px;/** width of profile image */ 
 }
 .certifications{
   padding:10px;
-}
-
-@media (min-width: 768px) {
-  .project figure .actions {
-    top: 84%;
-  }
-}
-
-@media (min-width: 992px) {
-  .project figure .actions {
-    top: 76%;
-    left:0;
-    right:0;
-    padding:2%;
-    
-  }
-}
-
-@media (min-width: 1200px) {
-  .project figure .actions {
-    top: 80%;
-    left:0;
-    right:0;
-    font-size:1em;
-    padding:2%;
-  }
 }
 
 .thumbnail {
