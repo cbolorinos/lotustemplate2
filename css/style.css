@@ -4964,6 +4964,7 @@ tbody.collapse.in {
 }
 .procedure-nav{
   padding-right:15px;
+  margin:15px;
 }
 .procedure-content{
   padding-left:15px;
@@ -4980,6 +4981,9 @@ tbody.collapse.in {
   display:block;
 }
 @media(min-width: 992px){
+.procedure-nav{
+  margin:0px;
+}
 .hide-mobile{
   display:block;
 }
@@ -4988,7 +4992,7 @@ tbody.collapse.in {
 }
 .nav-pills > li > a {
   border-radius: 3px;
-  text-align: right;
+  text-align: left;
   float:none;
   border:none;
   margin-right: 0;
@@ -29826,9 +29830,15 @@ html .page .offset-top-124 {
 html .page .offset-top-130 {
   margin-top: 130px;
 }
+
 html .page .offset-top-mobile-20 {
   margin-top: 20px;
 }
+
+html .page .offset-bottom-20 {
+  margin-bottom: 20px;
+}
+
 @media (min-width: 480px) {
   html .page .offset-xs-top-0 {
     margin-top: 0;
