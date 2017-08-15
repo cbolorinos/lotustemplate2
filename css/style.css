@@ -2549,7 +2549,6 @@ output {
 }
 
 #content-slider .slider [class*='title-'] {
-  background: rgba(0, 0, 0, 0.51);
   padding: 1% 1%;
   display: inline-block;
   width: 40%;
@@ -2595,31 +2594,15 @@ output {
 /* ------------------------------------------------> article */
 /*------------------------------*/
 #content-slider .slider h1,#content-slider .th h1 {
-  color: #fffefe;
-  text-transform: uppercase;
+  color: #fff;
   padding: 0;
   margin: 0;
-  font-weight: bold;
-}
-
-#content-slider .slider p,#content-slider .th p {
-  color: #fffefe;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-}
-
-#content-slider .slider a,#content-slider .th a {
-  font-weight: bold;
-  color: #00ABFA;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 /*------------------------------*/
 /* -----------------------------------------------> article img slider*/
 /*------------------------------*/
-#content-slider .slider h1 { font-size: 3.0em; line-height: 2em; }
+#content-slider .slider h1 { font-size: 3.0em; line-height: 2em; text-transform: none;}
 
 #content-slider .slider p { font-size: 2.3em; line-height: 1.2em; }
 
@@ -2682,7 +2665,7 @@ output {
 /* --------------------------------------------> max contrloS img preview*/
 #content-slider span.th {
   width: 25%;
-  margin: 34% 0% 0 0%;
+  margin: 43% 0% 0 0%;
   float: left;
   text-align: center;
   display: inline-block;
@@ -2849,7 +2832,6 @@ input#a-3:checked ~ #control>label:nth-child(2),
 input#a-4:checked ~ #control>label:nth-child(3) {
   width: 50px;
   height: 50px;
-  top: 12em;
   display: inline-block;
   position: relative;     
   cursor: pointer;
@@ -2858,8 +2840,7 @@ input#a-4:checked ~ #control>label:nth-child(3) {
 input#a-1:checked ~ #control>label:nth-child(2),  
 input#a-2:checked ~ #control>label:nth-child(3), 
 input#a-3:checked ~ #control>label:nth-child(4), 
-input#a-4:checked ~ #control>label:nth-child(1) {           
-  background: url(https://github.com/lime7/slider/blob/master/images/right.png?raw=true) no-repeat;   
+input#a-4:checked ~ #control>label:nth-child(1) {             
   float: right;
   right: 0.3%;            
 }
@@ -2868,7 +2849,6 @@ input#a-1:checked ~ #control>label:nth-child(4),
 input#a-2:checked ~ #control>label:nth-child(1),
 input#a-3:checked ~ #control>label:nth-child(2),
 input#a-4:checked ~ #control>label:nth-child(3) {     
-  background: url(https://github.com/lime7/slider/blob/master/images/left.png?raw=true) no-repeat;  
   float: left;
   left: 0.3%;     
 }
@@ -2984,7 +2964,7 @@ span#b-5:focus ~ .slider .inset { margin-left:-400%; }
     
 @media only screen and (max-width: 640px) {
 
-  #content-slider .slider [class*='title-'] { display: none; }
+  #content-slider .slider [class*='title-'] { background-color: rgba(35,31,32,.6); text-align:center;}
 
   #content-slider span.first { display: none; }
 
@@ -2994,9 +2974,9 @@ span#b-5:focus ~ .slider .inset { margin-left:-400%; }
 
   #content-slider .th>[class*='title-'] { right: 0%; width: 55%; text-align: left; }
 
-  #content-slider #b-2 { margin: 5% auto 0 auto; }
+  #content-slider #b-2 { margin: 5% auto 0 auto;}
 
-  #content-slider #b-3, #content-slider #b-4 { margin-top: 5%; }
+  #content-slider #b-3, #content-slider #b-4 { margin-top: 5%; display:none;}
 
   #content-slider span#b-2:focus { opacity: 1; } span#b-2:focus ~ span#b-5 { display: none; }
   #content-slider span#b-3:focus { opacity: 1; } span#b-3:focus ~ span#b-5 { display: none; }
