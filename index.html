@@ -143,99 +143,67 @@
                     <div class="lighttransparent offset-top-20">
                       <h5 class="text-primary">What We Can Do For You</h5>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                      <script>
-                      $(document).ready(function() {
-                          $('.carousel').carousel({
-                            interval: 6000
-                          })
-                        });
-                      </script>
-                      <div class="row offset-top-60">
-                        <div class="carousel slide" id="myCarousel">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                  <ul class="thumbnails">
-                                    <li class="col-sm-6 thumbnailcol">
-                                      <div class="fff">
-                                        <div class="thumbnail">
-                                          <img src="images/gallery/before.jpg" alt="">
-                                        </div>
-                                        <div class="caption">
-                                          <h4>Before</h4>
-                                        </div>
-                                      </div>
-                                    </li>
-                                    <li class="col-sm-6 thumbnailcol">
-                                      <div class="fff">
-                                        <div class="thumbnail">
-                                          <img src="images/gallery/after.jpg" alt="">
-                                        </div>
-                                        <div class="caption">
-                                          <h4>After</h4>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </div><!-- /Slide1 --> 
-                                <div class="item">
-                                  <ul class="thumbnails">
-                                    <li class="col-sm-6 thumbnailcol">
-                                      <div class="fff">
-                                        <div class="thumbnail">
-                                          <img src="images/gallery/before2.jpg" alt="">
-                                        </div>
-                                        <div class="caption">
-                                          <h4>Before</h4>
-                                        </div>
-                                      </div>
-                                    </li>
-                                    <li class="col-sm-6 thumbnailcol">
-                                      <div class="fff">
-                                        <div class="thumbnail">
-                                          <img src="images/gallery/after2.jpg" alt="">
-                                        </div>
-                                        <div class="caption">
-                                          <h4>After</h4>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </div><!-- /Slide2 --> 
-                                <div class="item">
-                                  <ul class="thumbnails">
-                                    <li class="col-sm-6 thumbnailcol">
-                                      <div class="fff">
-                                        <div class="thumbnail">
-                                          <img src="images/gallery/before3.jpg" alt="">
-                                        </div>
-                                        <div class="caption">
-                                          <h4>Before</h4>
-                                        </div>
-                                      </div>
-                                    </li>
-                                    <li class="col-sm-6 thumbnailcol">
-                                      <div class="fff">
-                                        <div class="thumbnail">
-                                          <img src="images/gallery/after3.jpg" alt="">
-                                        </div>
-                                        <div class="caption">
-                                          <h4>After</h4>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </div><!-- /Slide3 --> 
+                      <div id="content-slider" class="clr offset-top-20">
+                        <div class="wrap-slider clr"> 
+                          <input type="radio" id="a-1" name="a" >     
+                          <input type="radio" id="a-2" name="a" >     
+                          <input type="radio" id="a-3" name="a" >
+                          <input type="radio" id="a-4" name="a" >
+                          <nav id="control">
+                            <label for="a-1" ></label>
+                            <label for="a-2" ></label>
+                            <label for="a-3" ></label>
+                            <label for="a-4" ></label>
+                          </nav>
+                          <span id="b-1" class="th" tabindex="10">
+                            <img src="images/gallery/before2-big.jpg" alt="" id="p-1">
+                          </span>
+                          <span id="b-2" class="th" tabindex="11">
+                            <img src="images/gallery/after2-big.jpg" alt="" id="p-2">
+                          </span>     
+                          <span id="b-3" class="th" tabindex="12">
+                            <img src="images/gallery/before3-big.jpg" alt="" id="p-3">
+                          </span>
+                          <span id="b-4" class="th" tabindex="13">
+                            <img src="images/gallery/after3-big.jpg" alt="" id="p-4">
+                          </span>
+                          <div class="slider">
+                            <div class="inset">
+                              <figure>
+                                <figcaption class="title-1">
+                                  <h1>Before</h1>
+                                </figcaption>
+                                <img src="images/gallery/before2-big.jpg" alt="" id="i-1" class="f">            
+                              </figure>
+                              <figure>
+                                <figcaption class="title-2">
+                                  <h1>After</h1>
+                                </figcaption>
+                                <img src="images/gallery/after2-big.jpg" alt="" id="i-2" class="f">           
+                              </figure>
+                              <figure>
+                                <figcaption class="title-3">
+                                  <h1>Before</h1>
+                                </figcaption>
+                                <img src="images/gallery/before3-big.jpg" alt="" id="i-3" class="f">            
+                              </figure>
+                              <figure>
+                                <figcaption class="title-4">
+                                  <h1>After</h1>
+                                </figcaption>
+                                <img src="images/gallery/after3-big.jpg" alt="" id="i-4" class="f">           
+                              </figure>
+                              <figure>
+                                <figcaption class="title-5">
+                                  <h1>Before</h1>
+                                </figcaption>
+                                <img src="images/gallery/before2-big.jpg" alt="" id="i-5" class="f">            
+                              </figure>       
                             </div>
-                            <nav>
-                              <ul class="control-box pager">
-                                <li><a data-slide="prev" href="#myCarousel"><i class="glyphicon glyphicon-chevron-left"></i></a></li>
-                                <li><a data-slide="next" href="#myCarousel"><i class="glyphicon glyphicon-chevron-right"></i></a></li>
-                              </ul>
-                            </nav>
-                         <!-- /.control-box -->                          
-                          </div><!-- /#myCarousel -->
-                        </div>
-                      <div class="offset-top-0 slideshowbtn"><a href="grid-gallery.html" class="btn btn-ellipse btn-primary">View More Before & Afters</a></div>
+                          </div>                  
+                        </div>    
+                      </div>
+                      <div class="offset-top-20"><a href="grid-gallery.html" class="btn btn-ellipse btn-primary">View More Before & Afters</a></div>
                     </div>
                   </div>
                   <div class="cell-xs-10 cell-md-4 col-md-4">
